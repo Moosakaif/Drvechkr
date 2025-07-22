@@ -1,12 +1,14 @@
 "use client";
 
-import Hero from "./component/Hero";
-import HowItWorks from "./component/HIW";
-import Footer from "./component/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HIW";
+import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-gray-800">
+      <Navbar />
       <Hero />
       <HowItWorks />
       <Footer />
